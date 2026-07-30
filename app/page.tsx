@@ -1,3 +1,4 @@
+import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import type { Metadata } from "next";
 import site from "@/content/site.json";
 import {
@@ -66,7 +67,7 @@ const faqItems: FAQItem[] = [
       "Washington collects Real Estate Excise Tax when you transfer property, even during a compliant 1031 exchange. We align your intermediary, escrow officer, and attorney so the excise tax is disclosed and remitted correctly for Seattle, WA transactions.",
   },
   {
-    question: "How do I report on Form 8824?",
+    question: "How do you report on Form 8824?",
     answer:
       "You must file IRS Form 8824 with your federal tax return for the year of the exchange. The form outlines dates, property descriptions, fair market values, related party involvement, and any recognized gain. We organize the data package so your CPA can submit an accurate filing on time.",
   },
@@ -193,6 +194,6 @@ export default function Page() {
         waTaxHref={waTransfer?.href || "#"}
         tools={toolsData}
       />
-    </>
+    <ExchangeIntentSection /></>
   );
 }

@@ -18,6 +18,165 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
+    slug: "capital-gains-on-rental-property",
+    name: "Capital Gains on Rental Property",
+    short: "How federal capital gains tax, depreciation recapture, and net investment income tax apply when you sell a rental in Seattle, and how a 1031 exchange defers the bill.",
+    route: "/services/capital-gains-on-rental-property",
+    category: "Guides",
+    keywords: [
+      "capital gains rental property",
+      "sell rental property tax",
+      "1031 exchange capital gains",
+    ],
+  },
+  {
+    slug: "inherited-property-capital-gains",
+    name: "Inherited Property Capital Gains",
+    short: "How the stepped-up basis rule changes the capital gains math on inherited Seattle-area property and when a 1031 exchange still makes sense.",
+    route: "/services/inherited-property-capital-gains",
+    category: "Guides",
+    keywords: [
+      "inherited property capital gains",
+      "stepped up basis real estate",
+      "inherited rental property tax",
+    ],
+  },
+  {
+    slug: "passive-real-estate-income",
+    name: "Passive Real Estate Income",
+    short: "How triple net leases, DSTs, and professionally managed assets let Puget Sound owners collect rental income without day-to-day management duties.",
+    route: "/services/passive-real-estate-income",
+    category: "Guides",
+    keywords: [
+      "passive real estate income",
+      "DST passive investment",
+      "hands off rental property",
+    ],
+  },
+  {
+    slug: "the-qualified-intermediary-role",
+    name: "The Qualified Intermediary Role",
+    short: `Why a qualified intermediary must hold your exchange proceeds and how disqualified party rules apply to ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} transactions.`,
+    route: "/services/the-qualified-intermediary-role",
+    category: "Guides",
+    keywords: [
+      "qualified intermediary 1031",
+      "1031 exchange facilitator",
+      "Seattle QI requirements",
+    ],
+  },
+  {
+    slug: "seattle-dst-placement-advisory",
+    name: `${PRIMARY_CITY} DST Placement Advisory`,
+    short:
+      "Compare Delaware Statutory Trust sponsors, tranche structures, and cash flow horizons tailored to ${PRIMARY_CITY} investors.",
+    route: "/services/seattle-dst-placement-advisory",
+    category: "Exchange Structures",
+    keywords: [
+      "Seattle DST advisor",
+      "DST replacement property WA",
+      "Delaware Statutory Trust Seattle",
+    ],
+  },
+  {
+    slug: "what-is-an-nnn-lease",
+    name: "What Is an NNN Lease",
+    short: "A breakdown of triple net lease structure compared to gross and modified gross leases, and what to check before you rely on one.",
+    route: "/services/what-is-an-nnn-lease",
+    category: "Guides",
+    keywords: [
+      "what is an nnn lease",
+      "net lease structure explained",
+      "triple net lease definition",
+    ],
+  },
+  {
+    slug: "how-to-reduce-capital-gains-tax",
+    name: "How to Reduce Capital Gains Tax",
+    short: "A survey of legitimate strategies Seattle property owners use to reduce or defer capital gains tax, from 1031 exchanges to installment sales.",
+    route: "/services/how-to-reduce-capital-gains-tax",
+    category: "Guides",
+    keywords: [
+      "reduce capital gains tax",
+      "defer real estate taxes",
+      "capital gains tax strategies",
+    ],
+  },
+  {
+    slug: "reverse-1031-exchange-explained",
+    name: "Reverse 1031 Exchange Explained",
+    short: `How a reverse exchange lets ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors acquire replacement property before selling the relinquished asset.`,
+    route: "/services/reverse-1031-exchange-explained",
+    category: "Guides",
+    keywords: [
+      "reverse 1031 exchange",
+      "exchange accommodation titleholder",
+      "parking arrangement 1031",
+    ],
+  },
+  {
+    slug: "the-180-day-exchange-deadline",
+    name: "The One Hundred Eighty Day Exchange Deadline",
+    short: `How the one hundred eighty calendar day closing deadline works alongside the identification period for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors.`,
+    route: "/services/the-180-day-exchange-deadline",
+    category: "Guides",
+    keywords: [
+      "180 day exchange deadline",
+      "1031 closing deadline",
+      "Puget Sound 1031 timeline",
+    ],
+  },
+  {
+    slug: "seattle-replacement-property-bidding-support",
+    name: `${PRIMARY_CITY} Replacement Property Bidding Support`,
+    short:
+      "Draft LOIs, negotiate key terms, and maintain backup offers to protect identification lists.",
+    route: "/services/seattle-replacement-property-bidding-support",
+    category: "Identification Strategy",
+    keywords: [
+      "Seattle replacement property LOI",
+      "1031 bidding support",
+      "backup offer strategy Seattle",
+    ],
+  },
+  {
+    slug: "capital-gains-on-investment-property",
+    name: "Capital Gains on Investment Property",
+    short: "A plain-language breakdown of how gain is calculated on investment real estate and the deferral options available before you list.",
+    route: "/services/capital-gains-on-investment-property",
+    category: "Guides",
+    keywords: [
+      "capital gains investment property",
+      "investment property tax basis",
+      "defer capital gains real estate",
+    ],
+  },
+  {
+    slug: "seattle-45-day-identification-strategy",
+    name: `${PRIMARY_CITY} 45-Day Identification Strategy`,
+    short:
+      "Deliver three-property and 200 percent identification paths with risk sequencing, lender alignment, and deadline validation.",
+    route: "/services/seattle-45-day-identification-strategy",
+    category: "Timeline Control",
+    keywords: [
+      "45 day rule Seattle",
+      "1031 identification Seattle",
+      "200 percent rule ${PRIMARY_STATE_ABBR}",
+    ],
+  },
+  {
+    slug: "the-45-day-identification-period",
+    name: "The Forty-Five Day Identification Period",
+    short: `A plain-language walkthrough of the forty-five calendar day identification clock that begins the moment your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} relinquished property closes.`,
+    route: "/services/the-45-day-identification-period",
+    category: "Guides",
+    keywords: [
+      "45 day identification period",
+      "1031 identification rules",
+      "Seattle 1031 exchange deadline",
+    ],
+  },
+  {
     slug: "puget-sound-nnn-property-search",
     name: "Puget Sound NNN Property Search",
     short:
@@ -96,19 +255,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "seattle-dst-placement-advisory",
-    name: `${PRIMARY_CITY} DST Placement Advisory`,
-    short:
-      "Compare Delaware Statutory Trust sponsors, tranche structures, and cash flow horizons tailored to ${PRIMARY_CITY} investors.",
-    route: "/services/seattle-dst-placement-advisory",
-    category: "Exchange Structures",
-    keywords: [
-      "Seattle DST advisor",
-      "DST replacement property WA",
-      "Delaware Statutory Trust Seattle",
-    ],
-  },
-  {
     slug: "seattle-reverse-exchange-execution",
     name: `${PRIMARY_CITY} Reverse Exchange Execution`,
     short:
@@ -132,19 +278,6 @@ export const servicesData: ServiceItem[] = [
       "Seattle improvement exchange",
       "build to suit 1031 Seattle",
       "construction exchange oversight",
-    ],
-  },
-  {
-    slug: "seattle-45-day-identification-strategy",
-    name: `${PRIMARY_CITY} 45-Day Identification Strategy`,
-    short:
-      "Deliver three-property and 200 percent identification paths with risk sequencing, lender alignment, and deadline validation.",
-    route: "/services/seattle-45-day-identification-strategy",
-    category: "Timeline Control",
-    keywords: [
-      "45 day rule Seattle",
-      "1031 identification Seattle",
-      "200 percent rule ${PRIMARY_STATE_ABBR}",
     ],
   },
   {
@@ -197,19 +330,6 @@ export const servicesData: ServiceItem[] = [
       "1031 lender coordination",
       "Seattle financing preflight",
       "exchange debt planning",
-    ],
-  },
-  {
-    slug: "seattle-replacement-property-bidding-support",
-    name: `${PRIMARY_CITY} Replacement Property Bidding Support`,
-    short:
-      "Draft LOIs, negotiate key terms, and maintain backup offers to protect identification lists.",
-    route: "/services/seattle-replacement-property-bidding-support",
-    category: "Identification Strategy",
-    keywords: [
-      "Seattle replacement property LOI",
-      "1031 bidding support",
-      "backup offer strategy Seattle",
     ],
   },
   {
@@ -317,30 +437,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "the-45-day-identification-period",
-    name: "The Forty-Five Day Identification Period",
-    short: `A plain-language walkthrough of the forty-five calendar day identification clock that begins the moment your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} relinquished property closes.`,
-    route: "/services/the-45-day-identification-period",
-    category: "Guides",
-    keywords: [
-      "45 day identification period",
-      "1031 identification rules",
-      "Seattle 1031 exchange deadline",
-    ],
-  },
-  {
-    slug: "the-180-day-exchange-deadline",
-    name: "The One Hundred Eighty Day Exchange Deadline",
-    short: `How the one hundred eighty calendar day closing deadline works alongside the identification period for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors.`,
-    route: "/services/the-180-day-exchange-deadline",
-    category: "Guides",
-    keywords: [
-      "180 day exchange deadline",
-      "1031 closing deadline",
-      "Puget Sound 1031 timeline",
-    ],
-  },
-  {
     slug: "what-is-boot-in-a-1031-exchange",
     name: "What Is Boot in a 1031 Exchange",
     short: `An explainer on cash boot, mortgage boot, and other non-like-kind value that can trigger taxable gain for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} exchangers.`,
@@ -353,18 +449,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "the-qualified-intermediary-role",
-    name: "The Qualified Intermediary Role",
-    short: `Why a qualified intermediary must hold your exchange proceeds and how disqualified party rules apply to ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} transactions.`,
-    route: "/services/the-qualified-intermediary-role",
-    category: "Guides",
-    keywords: [
-      "qualified intermediary 1031",
-      "1031 exchange facilitator",
-      "Seattle QI requirements",
-    ],
-  },
-  {
     slug: "like-kind-property-explained",
     name: "Like-Kind Property Explained",
     short: `What counts as like-kind real property under current federal tax law for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} owners considering an exchange.`,
@@ -374,18 +458,6 @@ export const servicesData: ServiceItem[] = [
       "like kind property 1031",
       "1031 exchange eligible property",
       "real property exchange rules",
-    ],
-  },
-  {
-    slug: "reverse-1031-exchange-explained",
-    name: "Reverse 1031 Exchange Explained",
-    short: `How a reverse exchange lets ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors acquire replacement property before selling the relinquished asset.`,
-    route: "/services/reverse-1031-exchange-explained",
-    category: "Guides",
-    keywords: [
-      "reverse 1031 exchange",
-      "exchange accommodation titleholder",
-      "parking arrangement 1031",
     ],
   },
   {
@@ -413,30 +485,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "capital-gains-on-rental-property",
-    name: "Capital Gains on Rental Property",
-    short: "How federal capital gains tax, depreciation recapture, and net investment income tax apply when you sell a rental in Seattle, and how a 1031 exchange defers the bill.",
-    route: "/services/capital-gains-on-rental-property",
-    category: "Guides",
-    keywords: [
-      "capital gains rental property",
-      "sell rental property tax",
-      "1031 exchange capital gains",
-    ],
-  },
-  {
-    slug: "capital-gains-on-investment-property",
-    name: "Capital Gains on Investment Property",
-    short: "A plain-language breakdown of how gain is calculated on investment real estate and the deferral options available before you list.",
-    route: "/services/capital-gains-on-investment-property",
-    category: "Guides",
-    keywords: [
-      "capital gains investment property",
-      "investment property tax basis",
-      "defer capital gains real estate",
-    ],
-  },
-  {
     slug: "home-sale-capital-gains",
     name: "Home Sale Capital Gains",
     short: "The Section 121 exclusion, how it differs from a 1031 exchange, and what happens when a home has mixed personal and rental use.",
@@ -458,18 +506,6 @@ export const servicesData: ServiceItem[] = [
       "second home capital gains",
       "vacation home tax sale",
       "second home 1031 exchange",
-    ],
-  },
-  {
-    slug: "inherited-property-capital-gains",
-    name: "Inherited Property Capital Gains",
-    short: "How the stepped-up basis rule changes the capital gains math on inherited Seattle-area property and when a 1031 exchange still makes sense.",
-    route: "/services/inherited-property-capital-gains",
-    category: "Guides",
-    keywords: [
-      "inherited property capital gains",
-      "stepped up basis real estate",
-      "inherited rental property tax",
     ],
   },
   {
@@ -497,18 +533,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "how-to-reduce-capital-gains-tax",
-    name: "How to Reduce Capital Gains Tax",
-    short: "A survey of legitimate strategies Seattle property owners use to reduce or defer capital gains tax, from 1031 exchanges to installment sales.",
-    route: "/services/how-to-reduce-capital-gains-tax",
-    category: "Guides",
-    keywords: [
-      "reduce capital gains tax",
-      "defer real estate taxes",
-      "capital gains tax strategies",
-    ],
-  },
-  {
     slug: "how-to-invest-in-real-estate",
     name: "How to Invest in Real Estate",
     short: "An overview of direct ownership, DSTs, syndications, REITs, and crowdfunding, with notes on which structures qualify as 1031 replacement property.",
@@ -518,18 +542,6 @@ export const servicesData: ServiceItem[] = [
       "how to invest in real estate",
       "real estate investing options",
       "1031 eligible investments",
-    ],
-  },
-  {
-    slug: "passive-real-estate-income",
-    name: "Passive Real Estate Income",
-    short: "How triple net leases, DSTs, and professionally managed assets let Puget Sound owners collect rental income without day-to-day management duties.",
-    route: "/services/passive-real-estate-income",
-    category: "Guides",
-    keywords: [
-      "passive real estate income",
-      "DST passive investment",
-      "hands off rental property",
     ],
   },
   {
@@ -617,18 +629,6 @@ export const servicesData: ServiceItem[] = [
     ],
   },
   {
-    slug: "what-is-an-nnn-lease",
-    name: "What Is an NNN Lease",
-    short: "A breakdown of triple net lease structure compared to gross and modified gross leases, and what to check before you rely on one.",
-    route: "/services/what-is-an-nnn-lease",
-    category: "Guides",
-    keywords: [
-      "what is an nnn lease",
-      "net lease structure explained",
-      "triple net lease definition",
-    ],
-  },
-  {
     slug: "self-storage-investing",
     name: "Self Storage Investing",
     short: "Why self storage draws 1031 capital, the operating metrics that matter, and where supply is constrained across King, Pierce, and Snohomish counties.",
@@ -699,8 +699,7 @@ export const servicesData: ServiceItem[] = [
       "medical office building 1031",
       "healthcare real estate",
     ],
-  },
-];
+  },];
 
 const serviceDetailsRaw: Record<string, ServiceDetail> = {
   "seattle-replacement-property-identification": {
