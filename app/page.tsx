@@ -1,4 +1,3 @@
-import ExchangeIntentSection from "../components/ExchangeIntentSection";
 import type { Metadata } from "next";
 import site from "@/content/site.json";
 import {
@@ -194,6 +193,6 @@ export default function Page() {
         waTaxHref={waTransfer?.href || "#"}
         tools={toolsData}
       />
-    <ExchangeIntentSection /></>
+    </>
   );
 }

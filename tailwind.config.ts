@@ -9,6 +9,12 @@ const config = {
   theme: {
     extend: {
       colors: {
+        "brand-dark": "#111827",
+        "brand-charcoal": "#1B1B1B",
+        "brand-copper": "#0EA5A6",
+        "brand-copper-light": "#0EA5A6",
+        "brand-gold": "#0EA5A6",
+        "brand-gold-dark": "#0EA5A6",
         "pnw-navy": "#1F3C58",
         "pnw-midnight": "#0E2536",
         "pnw-mist": "#F5F7FA",
