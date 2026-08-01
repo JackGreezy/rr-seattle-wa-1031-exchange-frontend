@@ -22,9 +22,9 @@ const bodyFont = Lato({
 });
 
 export const metadata: Metadata = {
-  title: `${site.company} | ${site.mainCity}, ${site.state} 1031 Exchange Guidance`,
+  title: "1031 Exchange Seattle | Property Sale Solutions",
   description:
-    `Seattle-based 1031 exchange support focused on replacement property identification, underwriting, and deadline management.`,
+    "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
   icons: {
     icon: [
       { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -39,6 +39,14 @@ export const metadata: Metadata = {
     ],
   },
   manifest: '/favicon/site.webmanifest',
+
+  metadataBase: new URL("https://1031exchangeseattle.com"),
+
+  alternates: { canonical: "/" },
+
+  twitter: { card: "summary_large_image", title: "1031 Exchange Seattle | Property Sale Solutions", description: "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options." },
+
+  openGraph: { title: "1031 Exchange Seattle | Property Sale Solutions", description: "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options." },
 };
 
 export default function RootLayout({

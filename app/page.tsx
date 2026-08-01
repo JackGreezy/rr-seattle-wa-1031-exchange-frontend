@@ -15,16 +15,16 @@ const { city: PRIMARY_CITY, state: PRIMARY_STATE_ABBR } = getPrimaryMarket();
 
 export const metadata: Metadata = {
   title:
-    "Seattle, WA 1031 Exchange Experts | Washington Property Identification and Tax Deferral",
+    "1031 Exchange Seattle | Property Sale Solutions",
   description:
-    "Modern 1031 exchange guidance for Washington investors. Identify, verify, and close compliant exchanges with precision and clarity.",
+    "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
   alternates: {
     canonical: "https://www.1031exchangeseattle.com/",
   },
   openGraph: {
-    title: "Seattle, WA 1031 Exchange Experts",
+    title: "1031 Exchange Seattle | Property Sale Solutions",
     description:
-      "Helping Washington investors complete compliant 1031 exchanges with precision and local expertise.",
+      "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
     url: "https://www.1031exchangeseattle.com/",
     siteName: "1031 Exchange Seattle",
     images: ["/og-image.png"],
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Seattle, WA 1031 Exchange Experts",
+    title: "1031 Exchange Seattle | Property Sale Solutions",
     description:
-      "Trusted 1031 coordination for Washington real estate investors. Expert compliance. Clear process. Proven results.",
+      "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
     images: ["/og-image.png"],
   },
 };
