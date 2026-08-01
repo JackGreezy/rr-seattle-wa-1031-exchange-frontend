@@ -220,11 +220,9 @@ export const HomeContent = ({
             </p>
             <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#contact"
+                href="/contact"
                 className="px-10 py-4 bg-white text-[#2c3e50] text-xs tracking-[0.25em] uppercase hover:bg-[#b8a074] hover:text-white transition-all"
-              >
-                Start Your Exchange
-              </a>
+              >Talk Through the Seattle Sale</a>
               <a
                 href={`tel:${site.phoneDigits}`}
                 className="px-10 py-4 border border-white/60 text-white text-xs tracking-[0.25em] uppercase hover:bg-white hover:text-[#2c3e50] transition-all"
@@ -413,21 +411,11 @@ export const HomeContent = ({
                   1031 Exchange Seattle
                 </h2>
                 <p className="text-sm tracking-[0.15em] uppercase text-[#2c3e50] mb-8">
-                  Expert Exchange Coordination for Washington Investors
+                  Expert Exchange Solutions for Washington Investors
                 </p>
                 <div className="space-y-6 text-[#6b7c8a] leading-relaxed">
-                  <p>
-                    We help Washington investors navigate IRC Section 1031 exchanges with 
-                    precision and transparency. From initial strategy through closing, our 
-                    team coordinates replacement property identification, timeline management, 
-                    and stakeholder communication.
-                  </p>
-                  <p>
-                    Our expertise spans single tenant NNN, multifamily, industrial, medical 
-                    office, and DST opportunities across the Pacific Northwest and nationwide. 
-                    We work alongside your qualified intermediary, CPA, and legal counsel to 
-                    ensure compliant execution.
-                  </p>
+                  <p>A Seattle owner may be selling because regulation, repairs, tenant demands, inherited ownership, or concentrated equity has changed the investment’s fit. We organize a 1031 exchange solution around sale proceeds, debt, desired income, control, workload, replacement markets, and backup candidates.</p>
+                  <p>DST ownership can give Seattle sellers fractional access to professionally managed, institutional-quality real estate with no day-to-day landlord role. Offerings may include minimums near $100,000, while current availability, projected income, fees, leverage, sponsor and asset risk, transfer restrictions, eligibility, and suitability differ.</p>
                 </div>
                 <div className="mt-10">
                   <Link
@@ -451,7 +439,7 @@ export const HomeContent = ({
               Exchange Structures
             </p>
             <h2 className="font-heading text-4xl md:text-5xl tracking-[0.12em] text-[#2c3e50]">
-              Types of Exchanges
+              Exchange Into Property Without Daily Management
             </h2>
           </Reveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -484,11 +472,9 @@ export const HomeContent = ({
           </div>
           <div className="mt-12 text-center">
             <Link
-              href="/services"
+              href="/contact?request=guide"
               className="inline-block px-10 py-4 border border-[#2c3e50] text-xs tracking-[0.25em] uppercase text-[#2c3e50] hover:bg-[#2c3e50] hover:text-white transition-all"
-            >
-              View All Services
-            </Link>
+            >Get Free Seattle 1031 Information</Link>
           </div>
         </div>
       </section>
@@ -539,9 +525,7 @@ export const HomeContent = ({
             <p className="text-xs tracking-[0.35em] uppercase text-[#b8a074] mb-4">
               Our Expertise
             </p>
-            <h2 className="font-heading text-4xl md:text-5xl tracking-[0.12em] text-[#2c3e50] mb-6">
-              Exchange Services
-            </h2>
+            <h2 className="font-heading text-4xl md:text-5xl tracking-[0.12em] text-[#2c3e50] mb-6">Seattle 1031 Exchange Solutions</h2>
             <p className="text-[#6b7c8a] leading-relaxed max-w-2xl mx-auto">
               From initial strategy through closing, we coordinate every aspect of your 1031 exchange with precision and transparency.
             </p>
@@ -586,11 +570,9 @@ export const HomeContent = ({
           
           <div className="text-center mt-12">
             <Link
-              href="/services"
+              href="/contact?request=properties"
               className="inline-block px-10 py-4 border border-[#2c3e50] text-xs tracking-[0.25em] uppercase text-[#2c3e50] hover:bg-[#2c3e50] hover:text-white transition-all"
-            >
-              View All Services
-            </Link>
+            >Request the Seattle Property List</Link>
           </div>
         </div>
       </section>
