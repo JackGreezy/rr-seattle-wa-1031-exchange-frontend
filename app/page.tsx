@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import site from "@/content/site.json";
 import {
   servicesData,
-  propertyTypesData,
   locationsData,
-  resources,
   toolsData,
   type FAQItem,
 } from "@/data";
@@ -14,80 +12,77 @@ import { HomeContent } from "@/components/home/home-content";
 const { city: PRIMARY_CITY, state: PRIMARY_STATE_ABBR } = getPrimaryMarket();
 
 export const metadata: Metadata = {
-  title:
-    "1031 Exchange Seattle | Property Sale Solutions",
+  title: "1031 Exchange Seattle | Free Turnkey Exchange Help",
   description:
-    "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
+    "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.",
   alternates: {
     canonical: "https://www.1031exchangeseattle.com/",
   },
   openGraph: {
-    title: "1031 Exchange Seattle | Property Sale Solutions",
+    title: "1031 Exchange Seattle | Free Turnkey Exchange Help",
     description:
-      "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
+      "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.",
     url: "https://www.1031exchangeseattle.com/",
     siteName: "1031 Exchange Seattle",
-    images: ["/og-image.png"],
+    images: ["/homepage-hero/seattle-washington-1031-exchange-1.jpg"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "1031 Exchange Seattle | Property Sale Solutions",
+    title: "1031 Exchange Seattle | Free Turnkey Exchange Help",
     description:
-      "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
-    images: ["/og-image.png"],
+      "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.",
+    images: ["/homepage-hero/seattle-washington-1031-exchange-1.jpg"],
   },
 };
 
 const faqItems: FAQItem[] = [
   {
-    question: "What is the 45-day identification rule?",
+    question: "Can you help if my Seattle property is already under contract?",
     answer:
-      "The Internal Revenue Service requires investors to identify potential replacement properties within forty-five calendar days of selling the relinquished asset. We prepare a formal identification letter, document timestamps, and verify that each property satisfies like-kind criteria for Seattle, WA investors.",
+      "Yes. Call as soon as possible with the expected closing date and current transaction status. The immediate priority is engaging an independent qualified intermediary before the seller can receive the proceeds, then organizing the exchange calendar and replacement-property brief.",
   },
   {
-    question: "What properties qualify as like-kind?",
+    question: "What if this is my first 1031 exchange?",
     answer:
-      "Real property held for investment or productive use in a trade or business qualifies as like-kind, including single tenant NNN retail, shopping centers, logistics facilities, medical offices, and ground leases in Seattle, WA and beyond. Personal residences, dealer inventory, or fix-and-flip assets do not qualify.",
+      "A first-time exchanger does not need to arrive with a complete plan. We can explain the major decisions in plain language, help identify which independent professionals are needed, and organize the replacement search around the owner’s actual goals and timeline.",
   },
   {
-    question: "How does the 180-day closing rule work?",
+    question: "Can a 1031 exchange reduce my property-management responsibilities?",
     answer:
-      "You must close on one or more identified replacements within one hundred eighty days of the relinquished closing date or before the due date of your tax return. We track milestones with your intermediary, lender, and counsel so Seattle, WA exchanges stay compliant.",
+      "Potentially. A Seattle owner can compare another directly managed property with net-lease real estate and professionally managed DST interests. Each path offers different control, workload, liquidity, fee, financing, concentration, and risk tradeoffs.",
   },
   {
-    question: "How is boot treated in Washington?",
+    question: "What is a DST and does it require active management?",
     answer:
-      "Any cash boot or debt imbalance received is taxable as capital gains income. Washington does not impose a capital gains tax on qualifying exchanges, yet federal taxation still applies to boot. We model replacement equity targets to minimize exposure for Seattle, WA taxpayers.",
+      "A Delaware Statutory Trust gives eligible investors fractional interests in professionally managed real estate. The sponsor controls the trust and properties, so the investor does not make day-to-day landlord decisions. DSTs are securities and require careful review of offering documents, fees, leverage, sponsor risk, property risk, illiquidity, eligibility, and suitability.",
   },
   {
-    question: "What are excise taxes and how do they apply?",
+    question: "Can I compare direct property, net-lease property, and DST opportunities?",
     answer:
-      "Washington collects Real Estate Excise Tax when you transfer property, even during a compliant 1031 exchange. We align your intermediary, escrow officer, and attorney so the excise tax is disclosed and remitted correctly for Seattle, WA transactions.",
+      "Yes. We help place the alternatives beside the same sale objective so control, management duties, projected income, financing, diligence, liquidity, concentration, fees, and realistic closing probability can be compared consistently.",
   },
   {
-    question: "How do you report on Form 8824?",
+    question: "Can you help with inherited investment property?",
     answer:
-      "You must file IRS Form 8824 with your federal tax return for the year of the exchange. The form outlines dates, property descriptions, fair market values, related party involvement, and any recognized gain. We organize the data package so your CPA can submit an accurate filing on time.",
+      "Yes. Before the sale advances, organize the ownership history, qualifying use, basis questions, co-owner objectives, expected proceeds, and timing. Tax and legal conclusions should come from the owner’s CPA and attorney, but those questions can be made visible before the transaction limits the available choices.",
+  },
+  {
+    question: "How do I receive a current replacement-property list?",
+    answer:
+      "Submit the short contact form or call 206-737-0634. Share the sale timing, expected exchange equity, debt, income goals, geographic preferences, and desired level of management so the request can be focused on relevant direct, net-lease, or DST possibilities.",
   },
 ];
-
-const timelineLinks = resources.filter((resource) =>
-  ["irs-like-kind", "irs-form-8824", "rev-proc-2008-16"].includes(resource.key)
-);
-
-const waTransfer = resources.find(
-  (resource) => resource.key === "washington-transfer-tax"
-);
 
 const professionalServiceJsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: site.company,
   url: "https://www.1031exchangeseattle.com/",
-  image: "https://www.1031exchangeseattle.com/og-image.png",
+  image:
+    "https://www.1031exchangeseattle.com/homepage-hero/seattle-washington-1031-exchange-1.jpg",
   description:
-    "Seattle 1031 exchange specialists providing replacement property identification, underwriting, and deadline management.",
+    "Free educational 1031 exchange guidance and replacement-property information for Seattle investment-property owners.",
   address: {
     "@type": "PostalAddress",
     streetAddress: site.address,
@@ -123,11 +118,6 @@ const organizationJsonLd = {
     addressRegion: site.state,
     addressCountry: "US",
   },
-  sameAs: [
-    "https://www.linkedin.com",
-    "https://www.irs.gov",
-    "https://www.1031exchangeseattle.com/",
-  ],
 };
 
 const websiteJsonLd = {
@@ -135,12 +125,6 @@ const websiteJsonLd = {
   "@type": "WebSite",
   name: "1031 Exchange Seattle",
   url: "https://www.1031exchangeseattle.com/",
-  potentialAction: {
-    "@type": "SearchAction",
-    target:
-      "https://www.1031exchangeseattle.com/search?q={search_term_string}",
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const faqJsonLd = {
@@ -186,11 +170,8 @@ export default function Page() {
       />
       <HomeContent
         services={servicesData}
-        propertyTypes={propertyTypesData}
         serviceAreaCards={serviceAreaCards}
         faqItems={faqItems}
-        timelineLinks={timelineLinks}
-        waTaxHref={waTransfer?.href || "#"}
         tools={toolsData}
       />
     </>

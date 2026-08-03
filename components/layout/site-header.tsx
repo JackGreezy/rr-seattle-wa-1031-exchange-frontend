@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import clsx from "clsx";
 import site from "@/content/site.json";
 import { servicesData, locationsData, toolsData } from "@/data";
@@ -54,9 +54,19 @@ export const SiteHeader = () => {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
-  // Close mobile menu and dropdowns when navigating to new page
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
+    if (!mobileOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [mobileOpen]);
+
+  // Close mobile menu and dropdowns when navigating to new page
+  useEffect(() => {
+    // The route transition is the event that closes persistent navigation UI.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileOpen(false);
     setOpenMenu(null);
   }, [pathname]);
@@ -74,7 +84,7 @@ export const SiteHeader = () => {
     <header
       className={clsx(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled ? "bg-white shadow-sm" : "bg-transparent"
+        scrolled || mobileOpen ? "bg-white shadow-sm" : "bg-transparent"
       )}
     >
       <div className="max-w-[1400px] mx-auto flex items-center justify-between px-8 py-5">
@@ -91,7 +101,7 @@ export const SiteHeader = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-6">
           {DROPDOWNS.map((dropdown) => (
             <div
               key={dropdown.key}
@@ -103,7 +113,7 @@ export const SiteHeader = () => {
                 type="button"
                 className={clsx(
                   "flex items-center gap-1 text-xs tracking-[0.15em] uppercase transition-colors",
-                  scrolled
+                  scrolled || mobileOpen
                     ? "text-[#2c3e50] hover:text-[#b8a074]"
                     : "text-white hover:text-[#b8a074]",
                   openMenu === dropdown.key && "text-[#b8a074]"
@@ -190,7 +200,7 @@ export const SiteHeader = () => {
               href={item.href}
               className={clsx(
                 "text-xs tracking-[0.15em] uppercase transition-colors",
-                scrolled
+                scrolled || mobileOpen
                   ? "text-[#2c3e50] hover:text-[#b8a074]"
                   : "text-white hover:text-[#b8a074]",
                 pathname === item.href && "text-[#b8a074]"
@@ -200,9 +210,17 @@ export const SiteHeader = () => {
             </Link>
           ))}
 
-          <span className={clsx("text-sm", scrolled ? "text-[#2c3e50]" : "text-white")}>
-            {site.phone}
-          </span>
+          <a
+            href={`tel:${site.phoneDigits}`}
+            className={clsx(
+              "whitespace-nowrap border px-4 py-2 text-xs uppercase tracking-[0.12em] transition-all",
+              scrolled
+                ? "border-[#b8a074] bg-[#b8a074] text-white hover:bg-[#a08960]"
+                : "border-[#b8a074] bg-[#b8a074]/90 text-white hover:bg-[#b8a074]"
+            )}
+          >
+            Call {site.phone}
+          </a>
 
           <Link
             href="/contact"
@@ -222,19 +240,27 @@ export const SiteHeader = () => {
           type="button"
           className="lg:hidden w-10 h-10 flex items-center justify-center"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-navigation"
         >
           <div className="space-y-1.5">
-            <span className={clsx("block w-6 h-0.5 transition-all", scrolled ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "rotate-45 translate-y-2")} />
-            <span className={clsx("block w-6 h-0.5 transition-all", scrolled ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "opacity-0")} />
-            <span className={clsx("block w-6 h-0.5 transition-all", scrolled ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "-rotate-45 -translate-y-2")} />
+            <span className={clsx("block w-6 h-0.5 transition-all", scrolled || mobileOpen ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "rotate-45 translate-y-2")} />
+            <span className={clsx("block w-6 h-0.5 transition-all", scrolled || mobileOpen ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "opacity-0")} />
+            <span className={clsx("block w-6 h-0.5 transition-all", scrolled || mobileOpen ? "bg-[#2c3e50]" : "bg-white", mobileOpen && "-rotate-45 -translate-y-2")} />
           </div>
         </button>
       </div>
 
       {/* Mobile Menu */}
-      <div className={clsx("lg:hidden bg-white border-t border-gray-100 overflow-hidden transition-all duration-300", mobileOpen ? "max-h-screen" : "max-h-0")}>
-        <div className="px-8 py-6 space-y-6">
+      <div
+        id="mobile-navigation"
+        className={clsx(
+          "fixed inset-x-0 bottom-0 top-[96px] overflow-y-auto border-t border-gray-100 bg-white transition-all duration-300 lg:hidden",
+          mobileOpen ? "visible translate-x-0 opacity-100" : "invisible translate-x-full opacity-0"
+        )}
+      >
+        <div className="mx-auto max-w-xl space-y-5 px-8 py-7 pb-12">
           {DROPDOWNS.map((dropdown) => (
             <div key={dropdown.key}>
               <button
@@ -265,10 +291,17 @@ export const SiteHeader = () => {
               {item.label}
             </Link>
           ))}
-          <a href={`tel:${site.phoneDigits}`} className="block text-sm text-[#2c3e50] py-2">{site.phone}</a>
-          <Link href="/contact" className="block w-full text-center py-3 border border-[#2c3e50] text-xs tracking-[0.15em] uppercase text-[#2c3e50]">
-            Contact
-          </Link>
+          <div className="grid gap-3 pt-2">
+            <a href={`tel:${site.phoneDigits}`} className="block w-full bg-[#b8a074] py-4 text-center text-xs uppercase tracking-[0.15em] text-white">
+              Call {site.phone}
+            </a>
+            <Link href="/contact" className="block w-full border border-[#2c3e50] py-4 text-center text-xs uppercase tracking-[0.15em] text-[#2c3e50]">
+              Start My Exchange
+            </Link>
+            <Link href="/contact?request=properties" className="block w-full border border-[#b8a074] py-4 text-center text-xs uppercase tracking-[0.15em] text-[#8d764d]">
+              Get a Free Property List
+            </Link>
+          </div>
         </div>
       </div>
     </header>

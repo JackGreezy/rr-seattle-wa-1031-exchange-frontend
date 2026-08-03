@@ -307,7 +307,7 @@ export const ContactForm = ({ source = "Contact form", id, onSuccess, variant = 
         disabled={status === "submitting"}
         className={`w-full py-4 text-xs tracking-[0.2em] uppercase font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50 ${styles.button}`}
       >
-        {status === "submitting" ? "Sending..." : "Send Message"}
+        {status === "submitting" ? "Sending..." : "Request Free Guidance"}
       </button>
 
       {statusMessage && <p className={`text-sm ${styles.message}`}>{statusMessage}</p>}

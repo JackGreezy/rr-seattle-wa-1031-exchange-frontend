@@ -69,7 +69,7 @@ export const servicesData: ServiceItem[] = [
     slug: "seattle-dst-placement-advisory",
     name: `${PRIMARY_CITY} DST Placement Advisory`,
     short:
-      "Compare Delaware Statutory Trust sponsors, tranche structures, and cash flow horizons tailored to ${PRIMARY_CITY} investors.",
+      `Compare Delaware Statutory Trust sponsors, tranche structures, and cash flow horizons tailored to ${PRIMARY_CITY} investors.`,
     route: "/services/seattle-dst-placement-advisory",
     category: "Exchange Structures",
     keywords: [
@@ -161,7 +161,7 @@ export const servicesData: ServiceItem[] = [
     keywords: [
       "45 day rule Seattle",
       "1031 identification Seattle",
-      "200 percent rule ${PRIMARY_STATE_ABBR}",
+      `200 percent rule ${PRIMARY_STATE_ABBR}`,
     ],
   },
   {
@@ -258,7 +258,7 @@ export const servicesData: ServiceItem[] = [
     slug: "seattle-reverse-exchange-execution",
     name: `${PRIMARY_CITY} Reverse Exchange Execution`,
     short:
-      "Coordinate parking entities, acquisition financing, and compliance milestones for reverse exchanges in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+      `Coordinate parking entities, acquisition financing, and compliance milestones for reverse exchanges in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
     route: "/services/seattle-reverse-exchange-execution",
     category: "Exchange Structures",
     keywords: [
@@ -284,7 +284,7 @@ export const servicesData: ServiceItem[] = [
     slug: "seattle-180-day-closing-control",
     name: `${PRIMARY_CITY} 180-Day Closing Control`,
     short:
-      "Track diligence, financing, and settlement milestones to keep 180-day closings on schedule in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+      `Track diligence, financing, and settlement milestones to keep 180-day closings on schedule in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
     route: "/services/seattle-180-day-closing-control",
     category: "Timeline Control",
     keywords: [
@@ -303,14 +303,14 @@ export const servicesData: ServiceItem[] = [
     keywords: [
       "rent roll review Seattle",
       "T12 analysis 1031",
-      "NOI verification ${PRIMARY_STATE_ABBR}",
+      `NOI verification ${PRIMARY_STATE_ABBR}`,
     ],
   },
   {
     slug: "seattle-market-comp-and-cap-rate-review",
     name: `${PRIMARY_CITY} Market Comp and Cap Rate Review`,
     short:
-      "Publish market-supported cap rate bands and sale comps tailored to replacement goals in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+      `Publish market-supported cap rate bands and sale comps tailored to replacement goals in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
     route: "/services/seattle-market-comp-and-cap-rate-review",
     category: "Underwriting & Diligence",
     keywords: [
@@ -362,7 +362,7 @@ export const servicesData: ServiceItem[] = [
     slug: "seattle-sale-leaseback-exchange-guidance",
     name: `${PRIMARY_CITY} Sale-Leaseback Exchange Guidance`,
     short:
-      "Structure sale-leaseback reinvestments with credit evaluation and landlord protections tailored to ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+      `Structure sale-leaseback reinvestments with credit evaluation and landlord protections tailored to ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
     route: "/services/seattle-sale-leaseback-exchange-guidance",
     category: "Exchange Structures",
     keywords: [
@@ -375,7 +375,7 @@ export const servicesData: ServiceItem[] = [
     slug: "seattle-self-storage-1031-targeting",
     name: `${PRIMARY_CITY} Self Storage 1031 Targeting`,
     short:
-      "Model stabilized and lease-up storage assets with supply and demand analytics across ${PRIMARY_CITY}.",
+      `Model stabilized and lease-up storage assets with supply and demand analytics across ${PRIMARY_CITY}.`,
     route: "/services/seattle-self-storage-1031-targeting",
     category: "Asset Class Expertise",
     keywords: [
@@ -706,7 +706,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-replacement-property-identification",
     headline: `${PRIMARY_CITY} replacement property lists you can act on immediately`,
     summary:
-      "The forty-five calendar day identification window opens the moment your relinquished property closes escrow, and it does not pause for weekends, holidays, or a slow ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} inventory cycle. We assemble verified replacement candidates across ${PRIMARY_CITY}, the wider Puget Sound region, and, when local supply is thin, other West Coast markets, complete with rent rolls, trailing operating statements, cap rate context, debt scenarios, and a written risk assessment for each candidate. Every property on the list is prepared so it could be named on your identification letter without a scramble for missing documentation. A 1031 exchange defers the recognition of capital gains and depreciation recapture tax; it does not eliminate the liability, and the identification list we build is engineered around that deferral, not around avoiding a future taxable event altogether. We coordinate directly with your qualified intermediary so the paperwork trail supports the exchange rather than complicates it.",
+      `The forty-five calendar day identification window opens the moment your relinquished property closes escrow, and it does not pause for weekends, holidays, or a slow ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} inventory cycle. We assemble verified replacement candidates across ${PRIMARY_CITY}, the wider Puget Sound region, and, when local supply is thin, other West Coast markets, complete with rent rolls, trailing operating statements, cap rate context, debt scenarios, and a written risk assessment for each candidate. Every property on the list is prepared so it could be named on your identification letter without a scramble for missing documentation. A 1031 exchange defers the recognition of capital gains and depreciation recapture tax; it does not eliminate the liability, and the identification list we build is engineered around that deferral, not around avoiding a future taxable event altogether. We coordinate directly with your qualified intermediary so the paperwork trail supports the exchange rather than complicates it.`,
     outcomes: [
       "Three compliant identification scenarios, built under either the three-property rule or the two hundred percent rule, prepared within ten business days of engagement",
       "Lender-preflighted pro formas covering leverage assumptions, debt service coverage ratio targets, and reserve requirements before any offer is drafted",
@@ -727,17 +727,17 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "How many ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} properties can I list on the identification letter?",
+        question: `How many ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} properties can I list on the identification letter?`,
         answer:
-          "Under the three-property rule you may identify up to three properties of any value. Under the two hundred percent rule you may identify more than three properties as long as their combined fair market value does not exceed two hundred percent of what you sold. There is also a ninety-five percent rule allowing unlimited identifications if you ultimately acquire at least ninety-five percent of the value identified. We prepare whichever combination gives you the most flexibility if a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property goes off market before closing.",
+          `Under the three-property rule you may identify up to three properties of any value. Under the two hundred percent rule you may identify more than three properties as long as their combined fair market value does not exceed two hundred percent of what you sold. There is also a ninety-five percent rule allowing unlimited identifications if you ultimately acquire at least ninety-five percent of the value identified. We prepare whichever combination gives you the most flexibility if a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property goes off market before closing.`,
       },
       {
-        question: "What happens if an identified ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property fails diligence?",
+        question: `What happens if an identified ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property fails diligence?`,
         answer:
-          "We maintain vetted backup properties within the same asset profile from the start of the engagement. If your primary asset fails inspection, financing, or title review, the alternate ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} option is already documented with current comparables and lender feedback, so you are not starting the search over inside a shrinking window.",
+          `We maintain vetted backup properties within the same asset profile from the start of the engagement. If your primary asset fails inspection, financing, or title review, the alternate ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} option is already documented with current comparables and lender feedback, so you are not starting the search over inside a shrinking window.`,
       },
       {
-        question: "Can you coordinate with my intermediary in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can you coordinate with my intermediary in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. We share a secure data room with your qualified intermediary so they have every document required for compliance, while being clear that we do not act as the intermediary and do not hold exchange proceeds ourselves. The intermediary must be a disqualified-party-free third party under the Treasury regulations, and we work alongside whichever intermediary you have already engaged.",
       },
@@ -754,7 +754,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
       {
         question: "Does Washington's lack of a state income tax change how identification works?",
         answer:
-          "No. Washington has no state income tax, and its capital gains excise tax specifically excludes real estate sales, so there is no state-level real estate gain tax to defer in the first place. The forty-five day identification and one hundred eighty day closing rules are federal requirements under Internal Revenue Code Section 1031, and they apply the same way to a ${PRIMARY_CITY} exchange as they would anywhere else in the country.",
+          `No. Washington has no state income tax, and its capital gains excise tax specifically excludes real estate sales, so there is no state-level real estate gain tax to defer in the first place. The forty-five day identification and one hundred eighty day closing rules are federal requirements under Internal Revenue Code Section 1031, and they apply the same way to a ${PRIMARY_CITY} exchange as they would anywhere else in the country.`,
       },
     ],
     seo: {
@@ -790,12 +790,12 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
       {
         question: "What distinguishes absolute NNN from regular NNN leases?",
         answer:
-          "Absolute NNN leases transfer essentially all financial responsibility to the tenant, including capital expenditures, roof, structure, and parking lot maintenance, leaving the landlord with almost no operational duties. Regular NNN leases still pass through taxes, insurance, and common area maintenance, but may leave the landlord responsible for certain structural elements such as the roof or foundation. We evaluate each lease line by line to clarify your actual expense exposure before you identify a property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+          `Absolute NNN leases transfer essentially all financial responsibility to the tenant, including capital expenditures, roof, structure, and parking lot maintenance, leaving the landlord with almost no operational duties. Regular NNN leases still pass through taxes, insurance, and common area maintenance, but may leave the landlord responsible for certain structural elements such as the roof or foundation. We evaluate each lease line by line to clarify your actual expense exposure before you identify a property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
       },
       {
         question: "How do you evaluate tenant credit quality for NNN investments?",
         answer:
-          "We review investment-grade corporate tenants using S&P and Moody's ratings where available, along with audited financials, store-level performance metrics, and comparable closure rates within the same retail category. Essential retailers, dollar stores, quick-service restaurants, convenience stores, pharmacies, and medical groups typically demonstrate the most durable credit profiles. This analysis helps you understand tenant durability whether the property sits within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} or elsewhere on the West Coast.",
+          `We review investment-grade corporate tenants using S&P and Moody's ratings where available, along with audited financials, store-level performance metrics, and comparable closure rates within the same retail category. Essential retailers, dollar stores, quick-service restaurants, convenience stores, pharmacies, and medical groups typically demonstrate the most durable credit profiles. This analysis helps you understand tenant durability whether the property sits within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} or elsewhere on the West Coast.`,
       },
       {
         question: "Can NNN properties support 1031 exchange tax deferral strategies?",
@@ -828,7 +828,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-multifamily-exchange-targeting",
     headline: "Multifamily assets calibrated to Seattle rent dynamics",
     summary:
-      "Multifamily is one of the deepest replacement property categories available to exchangers, and it is also one of the easiest to misprice if the rent roll or expense history is not scrubbed carefully. We benchmark stabilized and value-add opportunities against rent roll integrity, expense ratios, capital reserve adequacy, and market absorption across ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} and the surrounding submarkets, so the net operating income figure you underwrite to is one your lender and your identification file can both stand behind. Washington places statewide limits on annual rent increases for existing tenancies, and any multifamily acquisition needs to be modeled against that regulatory backdrop rather than against a national average.",
+      `Multifamily is one of the deepest replacement property categories available to exchangers, and it is also one of the easiest to misprice if the rent roll or expense history is not scrubbed carefully. We benchmark stabilized and value-add opportunities against rent roll integrity, expense ratios, capital reserve adequacy, and market absorption across ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} and the surrounding submarkets, so the net operating income figure you underwrite to is one your lender and your identification file can both stand behind. Washington places statewide limits on annual rent increases for existing tenancies, and any multifamily acquisition needs to be modeled against that regulatory backdrop rather than against a national average.`,
     outcomes: [
       "A rent roll scrub identifying vacancy, concessions, delinquency, and any units subject to rent increase limitations",
       "Expense normalization covering utilities, payroll, insurance, property tax reassessment risk, and capital reserves",
@@ -849,14 +849,14 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "How do you evaluate rent growth assumptions in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `How do you evaluate rent growth assumptions in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "We apply submarket-level performance data, current absorption trends, and nearby employer expansion or contraction plans across ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}. Every underwriting file we prepare includes a downside case for rent growth and occupancy alongside the base case, so financing decisions are not built on an assumption that only holds up in a strong market.",
+          `We apply submarket-level performance data, current absorption trends, and nearby employer expansion or contraction plans across ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}. Every underwriting file we prepare includes a downside case for rent growth and occupancy alongside the base case, so financing decisions are not built on an assumption that only holds up in a strong market.`,
       },
       {
         question: "Can you review renovation scopes for value-add multifamily?",
         answer:
-          "Yes. We coordinate contractor bids, convert renovation costs to a per-unit metric, and confirm the one hundred eighty day closing deadline still leaves room for your planned renovation schedule once financing and permitting are factored in for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property.",
+          `Yes. We coordinate contractor bids, convert renovation costs to a per-unit metric, and confirm the one hundred eighty day closing deadline still leaves room for your planned renovation schedule once financing and permitting are factored in for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property.`,
       },
       {
         question: "Do you analyze regulatory exposure for multifamily acquisitions?",
@@ -889,7 +889,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-industrial-1031-acquisition",
     headline: "Industrial and flex options with operational transparency",
     summary:
-      "Industrial vacancy across the Puget Sound region has stayed comparatively tight because port activity, e-commerce distribution, and manufacturing users compete for a limited supply of well-located buildings. We map clear height, dock door count, power capacity, yard ratio, and truck circulation for industrial and flex assets serving ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so the logistics performance of the building you identify actually supports the tenant demand behind your underwriting, rather than looking adequate only on a rent roll summary.",
+      `Industrial vacancy across the Puget Sound region has stayed comparatively tight because port activity, e-commerce distribution, and manufacturing users compete for a limited supply of well-located buildings. We map clear height, dock door count, power capacity, yard ratio, and truck circulation for industrial and flex assets serving ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so the logistics performance of the building you identify actually supports the tenant demand behind your underwriting, rather than looking adequate only on a rent roll summary.`,
     outcomes: [
       "Confirm power capacity, dock door count, and clear height meet current and likely future tenant requirements",
       "Verify zoning, environmental status, and stormwater compliance before the property is added to your identification list",
@@ -910,9 +910,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can you find EV-ready industrial assets in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can you find EV-ready industrial assets in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. We track properties with higher power availability and existing electric vehicle charging infrastructure within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} logistics corridors, which matters increasingly to last-mile delivery tenants converting their fleets and to warehouse users adding rooftop solar or battery storage.",
+          `Yes. We track properties with higher power availability and existing electric vehicle charging infrastructure within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} logistics corridors, which matters increasingly to last-mile delivery tenants converting their fleets and to warehouse users adding rooftop solar or battery storage.`,
       },
       {
         question: "Do you evaluate trucking access for last-mile operations?",
@@ -950,7 +950,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-medical-office-exchange-advisory",
     headline: "Healthcare real estate aligned with compliance and credit",
     summary:
-      "Medical office buildings tend to hold value through economic cycles because tenant improvement costs are high, relocation is disruptive to a practice's patient base, and reimbursement-driven revenue is comparatively stable. We review payer mix, physician group financial stability, specialty dynamics, and Stark Law and anti-kickback considerations before recommending a medical office property for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} exchange, so the tenant credit behind the lease is understood before it becomes part of your identification file.",
+      `Medical office buildings tend to hold value through economic cycles because tenant improvement costs are high, relocation is disruptive to a practice's patient base, and reimbursement-driven revenue is comparatively stable. We review payer mix, physician group financial stability, specialty dynamics, and Stark Law and anti-kickback considerations before recommending a medical office property for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} exchange, so the tenant credit behind the lease is understood before it becomes part of your identification file.`,
     outcomes: [
       "Assess physician group financials, payer mix, and specialty concentration risk before committing to a property",
       "Evaluate reimbursement exposure, rent escalations, and expense pass-through structure in the lease",
@@ -971,9 +971,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Do you review Stark and anti-kickback considerations in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you review Stark and anti-kickback considerations in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. We coordinate with your legal counsel to confirm lease terms and any physician ownership interest comply with the Stark Law and federal anti-kickback statute, since a lease structured incorrectly can expose both the tenant and the landlord to regulatory risk regardless of where the property sits in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+          `Yes. We coordinate with your legal counsel to confirm lease terms and any physician ownership interest comply with the Stark Law and federal anti-kickback statute, since a lease structured incorrectly can expose both the tenant and the landlord to regulatory risk regardless of where the property sits in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
       },
       {
         question: "Can you analyze ambulatory surgery center opportunities?",
@@ -1011,7 +1011,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-retail-pad-redeployment",
     headline: "Retail pad reinvestments anchored in traffic and trade data",
     summary:
-      "Retail pad sites, whether ground leased or fee simple with an existing quick-service or drive-thru tenant, remain a common landing spot for exchangers who want dependable rent without operating a larger shopping center. We deliver retail pad opportunities with traffic counts, co-tenancy metrics, sales-to-rent ratios where available, and entitlement clarity, so you can redeploy capital in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} with a clear view of what drives that rent and how durable it is likely to be.",
+      `Retail pad sites, whether ground leased or fee simple with an existing quick-service or drive-thru tenant, remain a common landing spot for exchangers who want dependable rent without operating a larger shopping center. We deliver retail pad opportunities with traffic counts, co-tenancy metrics, sales-to-rent ratios where available, and entitlement clarity, so you can redeploy capital in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} with a clear view of what drives that rent and how durable it is likely to be.`,
     outcomes: [
       "Confirm drive-thru stacking capacity, curb cut approvals, and access easements are documented, not assumed",
       "Evaluate co-tenancy clauses and the financial strength of any shadow anchor the pad depends on for traffic",
@@ -1032,9 +1032,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can you review drive-thru stacking requirements in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can you review drive-thru stacking requirements in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. We model peak-demand stacking capacity against the tenant's typical drive-thru volume and coordinate with traffic engineers when needed to confirm the site's stacking lane and curb cut configuration comply with local municipal code in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+          `Yes. We model peak-demand stacking capacity against the tenant's typical drive-thru volume and coordinate with traffic engineers when needed to confirm the site's stacking lane and curb cut configuration comply with local municipal code in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
       },
       {
         question: "Do you include sales projections?",
@@ -1072,7 +1072,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-mixed-use-exchange-planning",
     headline: "Mixed-use strategies synchronized with exchange rules",
     summary:
-      "Mixed-use buildings, common along ${PRIMARY_CITY} corridors that blend ground-floor retail with residential or office floors above, require a different underwriting approach than a single-use asset because each component has its own rent trajectory, expense allocation, and tenant risk profile. We structure mixed-use acquisitions with a clear allocation between residential, office, and retail components for investors in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so lender underwriting, cash flow reporting, and your eventual tax basis calculation all reflect the building's actual composition.",
+      `Mixed-use buildings, common along ${PRIMARY_CITY} corridors that blend ground-floor retail with residential or office floors above, require a different underwriting approach than a single-use asset because each component has its own rent trajectory, expense allocation, and tenant risk profile. We structure mixed-use acquisitions with a clear allocation between residential, office, and retail components for investors in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so lender underwriting, cash flow reporting, and your eventual tax basis calculation all reflect the building's actual composition.`,
     outcomes: [
       "Allocate purchase price across asset classes in a way both your lender and your tax preparer can rely on",
       "Evaluate shared building systems, elevator and lobby maintenance, and common area maintenance cost structures",
@@ -1093,14 +1093,14 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can a mixed-use property qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can a mixed-use property qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes, as long as the property is held for investment or for productive use in a trade or business, and not primarily for personal use. We confirm lease structures, tenancy composition, and your holding intent to demonstrate compliance for a mixed-use property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, whether the residential portion is market-rate rental or includes affordable housing set-asides.",
+          `Yes, as long as the property is held for investment or for productive use in a trade or business, and not primarily for personal use. We confirm lease structures, tenancy composition, and your holding intent to demonstrate compliance for a mixed-use property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, whether the residential portion is market-rate rental or includes affordable housing set-asides.`,
       },
       {
         question: "How do you handle shared expenses across the residential and commercial components?",
         answer:
-          "We review common area maintenance reconciliations, shared utility meters, and any homeowner or condominium association agreements so your cash flow projections reflect true net operating income rather than a blended estimate that overstates or understates either component in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+          `We review common area maintenance reconciliations, shared utility meters, and any homeowner or condominium association agreements so your cash flow projections reflect true net operating income rather than a blended estimate that overstates or understates either component in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
       },
       {
         question: "Can you model exit values by component?",
@@ -1131,9 +1131,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
   },
   "seattle-dst-placement-advisory": {
     slug: "seattle-dst-placement-advisory",
-    headline: "DST comparisons built for ${PRIMARY_CITY} investors",
+    headline: `DST comparisons built for ${PRIMARY_CITY} investors`,
     summary:
-      "A Delaware Statutory Trust interest is a security that also qualifies as like-kind replacement property under Revenue Ruling 2004-86, and it is the structure most exchangers reach for when they want institutional-grade real estate exposure without direct management responsibility, or when the identification clock is running short. We help ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors evaluate DST sponsor history, portfolio asset mix, leverage, and distribution policy so they can diversify 1031 proceeds with a clear understanding of the structure. Because DST interests are securities, any recommendation of a specific offering must come from a licensed securities professional; we help you understand how the structure fits your exchange without selling or recommending particular DST offerings ourselves.",
+      `A Delaware Statutory Trust interest is a security that also qualifies as like-kind replacement property under Revenue Ruling 2004-86, and it is the structure most exchangers reach for when they want institutional-grade real estate exposure without direct management responsibility, or when the identification clock is running short. We help ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors evaluate DST sponsor history, portfolio asset mix, leverage, and distribution policy so they can diversify 1031 proceeds with a clear understanding of the structure. Because DST interests are securities, any recommendation of a specific offering must come from a licensed securities professional; we help you understand how the structure fits your exchange without selling or recommending particular DST offerings ourselves.`,
     outcomes: [
       "Compare projected cash flow, embedded leverage, and underlying asset type across available offerings",
       "Review sponsor financial health, track record across prior programs, and fee transparency",
@@ -1154,7 +1154,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can a DST help me meet the forty-five day identification in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can a DST help me meet the forty-five day identification in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. DST interests can typically be identified and documented faster than a direct property purchase, which is why they are commonly used as a backup or primary option when the identification window is tight. We help make sure documentation is ready for your intermediary so the DST interest is properly listed on your identification letter.",
       },
@@ -1194,7 +1194,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-reverse-exchange-execution",
     headline: "Reverse exchanges without timeline surprises",
     summary:
-      "A reverse exchange lets you acquire replacement property before your relinquished property closes, which matters in a competitive ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} market where a strong replacement asset can sell before a conventional forward exchange would let you act. Because the taxpayer cannot hold title to both properties simultaneously, an exchange accommodation titleholder parks title to one property while the other transaction is completed, under the safe harbor described in Revenue Procedure 2000-37. We coordinate the parking entity, financing, and closing logistics so the structure stays compliant within the one hundred eighty day parking period.",
+      `A reverse exchange lets you acquire replacement property before your relinquished property closes, which matters in a competitive ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} market where a strong replacement asset can sell before a conventional forward exchange would let you act. Because the taxpayer cannot hold title to both properties simultaneously, an exchange accommodation titleholder parks title to one property while the other transaction is completed, under the safe harbor described in Revenue Procedure 2000-37. We coordinate the parking entity, financing, and closing logistics so the structure stays compliant within the one hundred eighty day parking period.`,
     outcomes: [
       "Confirm formation of the exchange accommodation titleholder and manage its documentation requirements",
       "Align lender requirements with the parking arrangement, since not every lender is comfortable financing a parked property",
@@ -1215,14 +1215,14 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "How long can the exchange accommodation titleholder hold the property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `How long can the exchange accommodation titleholder hold the property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Under the safe harbor in Revenue Procedure 2000-37, the parking arrangement is limited to one hundred eighty days. We manage the milestone schedule so the relinquished property sale and the replacement property conveyance both complete within that window, regardless of whether the property sits in ${PRIMARY_CITY} or elsewhere in the region.",
+          `Under the safe harbor in Revenue Procedure 2000-37, the parking arrangement is limited to one hundred eighty days. We manage the milestone schedule so the relinquished property sale and the replacement property conveyance both complete within that window, regardless of whether the property sits in ${PRIMARY_CITY} or elsewhere in the region.`,
       },
       {
         question: "Do you provide intermediary services?",
         answer:
-          "No. We coordinate with your selected qualified intermediary and exchange accommodation titleholder while focusing on project management, lender alignment, and documentation support for the reverse exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}. Holding exchange funds or title is a role reserved for the intermediary and accommodation titleholder, not for us.",
+          `No. We coordinate with your selected qualified intermediary and exchange accommodation titleholder while focusing on project management, lender alignment, and documentation support for the reverse exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}. Holding exchange funds or title is a role reserved for the intermediary and accommodation titleholder, not for us.`,
       },
       {
         question: "Can the parked property be improved during the hold period?",
@@ -1255,7 +1255,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-improvement-exchange-oversight",
     headline: "Improvement exchanges with disciplined budget control",
     summary:
-      "An improvement exchange, also called a build-to-suit exchange, lets you apply exchange proceeds toward construction or renovation on the replacement property, but only improvements completed and in place before the one hundred eighty day deadline count toward the exchange value. That timing constraint means the value of the property, land plus finished improvements, on the day title transfers to you is what matters, not the total budget you intended to spend. We manage construction scopes, draw schedules, and approvals so your improvement exchange satisfies the requirements of Revenue Procedure 2000-37 and stays on budget in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.",
+      `An improvement exchange, also called a build-to-suit exchange, lets you apply exchange proceeds toward construction or renovation on the replacement property, but only improvements completed and in place before the one hundred eighty day deadline count toward the exchange value. That timing constraint means the value of the property, land plus finished improvements, on the day title transfers to you is what matters, not the total budget you intended to spend. We manage construction scopes, draw schedules, and approvals so your improvement exchange satisfies the requirements of Revenue Procedure 2000-37 and stays on budget in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}.`,
     outcomes: [
       "Align the improvement scope and construction schedule with the fixed one hundred eighty day exchange timeline",
       "Coordinate contractor invoices and draw requests with the exchange accommodation titleholder holding title during construction",
@@ -1276,9 +1276,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can improvements extend beyond one hundred eighty days in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can improvements extend beyond one hundred eighty days in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "The construction can continue past the deadline, but only the value in place, land plus completed improvements, on day one hundred eighty counts toward your exchange. Anything built or paid for after that date does not add exchange value, so we sequence the highest-value work earliest to protect the deferral for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} project.",
+          `The construction can continue past the deadline, but only the value in place, land plus completed improvements, on day one hundred eighty counts toward your exchange. Anything built or paid for after that date does not add exchange value, so we sequence the highest-value work earliest to protect the deferral for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} project.`,
       },
       {
         question: "How are contractor payments handled?",
@@ -1286,7 +1286,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
           "Funds flow through the exchange accommodation titleholder rather than directly from you to the contractor, since you cannot have actual or constructive receipt of exchange funds during the parking period. We prepare draw packages, lien waivers, and dated progress photos to maintain a clear compliance record throughout construction.",
       },
       {
-        question: "Do you coordinate permits in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you coordinate permits in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "We work with your contractors and permitting consultants to keep municipal approvals synchronized with the exchange schedule, since a delayed permit is one of the most common reasons an improvement exchange runs short on finished value by the deadline.",
       },
@@ -1316,7 +1316,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-45-day-identification-strategy",
     headline: "Identification strategies that withstand scrutiny",
     summary:
-      "The forty-five calendar day identification period is the single most unforgiving deadline in a 1031 exchange. It runs from the day your relinquished property closes, it cannot be extended for any reason short of a federally declared disaster, and missing it converts the entire transaction into a taxable sale. We deliver identification strategies built around the three-property rule, the two hundred percent rule, and the ninety-five percent rule, so you can meet the deadline in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} without compromising on the quality of the assets you name.",
+      `The forty-five calendar day identification period is the single most unforgiving deadline in a 1031 exchange. It runs from the day your relinquished property closes, it cannot be extended for any reason short of a federally declared disaster, and missing it converts the entire transaction into a taxable sale. We deliver identification strategies built around the three-property rule, the two hundred percent rule, and the ninety-five percent rule, so you can meet the deadline in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} without compromising on the quality of the assets you name.`,
     outcomes: [
       "Map identification scenarios under whichever rule gives you the most usable flexibility",
       "Document fair market valuations and the methodology behind each figure for audit protection",
@@ -1337,9 +1337,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "What is the two hundred percent rule in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `What is the two hundred percent rule in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "You can identify any number of properties, without the three-property limit, as long as the combined fair market value of everything identified does not exceed two hundred percent of what you sold. We track valuations carefully so your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} identification letter stays within that threshold rather than accidentally disqualifying the exchange.",
+          `You can identify any number of properties, without the three-property limit, as long as the combined fair market value of everything identified does not exceed two hundred percent of what you sold. We track valuations carefully so your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} identification letter stays within that threshold rather than accidentally disqualifying the exchange.`,
       },
       {
         question: "Can I change identified properties after the letter is submitted?",
@@ -1377,7 +1377,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-180-day-closing-control",
     headline: "Closing control that protects the 180-day deadline",
     summary:
-      "The one hundred eighty calendar day closing deadline runs concurrently with, not after, the forty-five day identification period, so by the time your identification letter is finalized you may already have fewer than one hundred thirty five days left to actually close. We orchestrate diligence, financing, and closing deliverables so your replacement purchase, or purchases, complete within that statutory window in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, treating every lender and title dependency as a critical path item rather than a background task.",
+      `The one hundred eighty calendar day closing deadline runs concurrently with, not after, the forty-five day identification period, so by the time your identification letter is finalized you may already have fewer than one hundred thirty five days left to actually close. We orchestrate diligence, financing, and closing deliverables so your replacement purchase, or purchases, complete within that statutory window in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, treating every lender and title dependency as a critical path item rather than a background task.`,
     outcomes: [
       "Maintain an integrated closing calendar coordinating lender, title company, and intermediary deliverables",
       "Escalate critical path items, such as appraisal scheduling or loan committee approval, before they threaten the deadline",
@@ -1398,9 +1398,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "What happens if closing slips past one hundred eighty days in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `What happens if closing slips past one hundred eighty days in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "The exchange fails outright, with no partial deferral available, and the relinquished property sale becomes a fully taxable event. We monitor every dependency and maintain escalation protocols with your lender, title company, and intermediary specifically to prevent that outcome for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} closing.",
+          `The exchange fails outright, with no partial deferral available, and the relinquished property sale becomes a fully taxable event. We monitor every dependency and maintain escalation protocols with your lender, title company, and intermediary specifically to prevent that outcome for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} closing.`,
       },
       {
         question: "Can multiple replacement properties close at different times?",
@@ -1438,7 +1438,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-rent-roll-and-t12-verification",
     headline: "Rent roll and T12 validation before you commit",
     summary:
-      "A seller-provided rent roll and trailing twelve month statement often carries a rosier picture than the property's actual, verifiable income, whether through undisclosed concessions, side letters, or expenses reclassified to flatter net operating income. We audit rent rolls, trailing twelve month statements, and common area maintenance reconciliations against source documents such as bank deposits and lease files, so the net operating income figure driving your offer for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property is one your lender and your identification decision can rely on.",
+      `A seller-provided rent roll and trailing twelve month statement often carries a rosier picture than the property's actual, verifiable income, whether through undisclosed concessions, side letters, or expenses reclassified to flatter net operating income. We audit rent rolls, trailing twelve month statements, and common area maintenance reconciliations against source documents such as bank deposits and lease files, so the net operating income figure driving your offer for a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} property is one your lender and your identification decision can rely on.`,
     outcomes: [
       "Identify irregularities such as undisclosed concessions, side agreements, or related-party leases",
       "Normalize expenses for property tax, insurance, and deferred repairs that understate true operating cost",
@@ -1459,14 +1459,14 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Do you verify tenant payments in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you verify tenant payments in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. We match reported rent to actual bank deposits and confirm any rent abatements, deferrals, or free-rent periods that a rent roll alone might not disclose, so a lender evaluating your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} acquisition sees accurate, verified income history rather than an optimistic projection.",
+          `Yes. We match reported rent to actual bank deposits and confirm any rent abatements, deferrals, or free-rent periods that a rent roll alone might not disclose, so a lender evaluating your ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} acquisition sees accurate, verified income history rather than an optimistic projection.`,
       },
       {
         question: "Can you review property tax reassessment exposure?",
         answer:
-          "Yes. Washington counties generally reassess property upon sale, which frequently raises the property tax bill above the seller's trailing figure. We model likely reassessment exposure for the relevant ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} jurisdiction so your forward cash flow projection accounts for the higher tax basis rather than the seller's stale number.",
+          `Yes. Washington counties generally reassess property upon sale, which frequently raises the property tax bill above the seller's trailing figure. We model likely reassessment exposure for the relevant ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} jurisdiction so your forward cash flow projection accounts for the higher tax basis rather than the seller's stale number.`,
       },
       {
         question: "Do you provide lender-ready formats?",
@@ -1499,7 +1499,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-market-comp-and-cap-rate-review",
     headline: "Cap rate intelligence tuned to Seattle demand",
     summary:
-      "Overpaying inside a compressed identification window is one of the most common ways an exchange investor erodes the very tax benefit the exchange was meant to preserve. We publish sale comparables, capitalization rate spreads by asset type, and transaction velocity data so you price replacement assets correctly in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, rather than paying a premium simply because the deadline is close.",
+      `Overpaying inside a compressed identification window is one of the most common ways an exchange investor erodes the very tax benefit the exchange was meant to preserve. We publish sale comparables, capitalization rate spreads by asset type, and transaction velocity data so you price replacement assets correctly in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, rather than paying a premium simply because the deadline is close.`,
     outcomes: [
       "Understand cap rate differences by asset type, tenant credit, and lease structure across the region",
       "Track capital market shifts, including interest rate movement, affecting valuation in real time",
@@ -1520,7 +1520,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Do you cover suburban submarkets around ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you cover suburban submarkets around ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. We include Bellevue, Redmond, Kirkland, Everett, and other Puget Sound submarkets to provide a regional perspective, since pricing dynamics for the same asset type can differ meaningfully between a dense urban submarket and a growing suburban corridor.",
       },
@@ -1547,7 +1547,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
       {
         question: "What if the only comparable properties are outside King County?",
         answer:
-          "For asset types with thin trading volume close to ${PRIMARY_CITY}, we expand the comparable set to Pierce and Snohomish counties, and occasionally to other West Coast markets with similar demand characteristics, while clearly noting any adjustment made for location differences so the resulting pricing guidance remains defensible.",
+          `For asset types with thin trading volume close to ${PRIMARY_CITY}, we expand the comparable set to Pierce and Snohomish counties, and occasionally to other West Coast markets with similar demand characteristics, while clearly noting any adjustment made for location differences so the resulting pricing guidance remains defensible.`,
       },
     ],
     seo: {
@@ -1560,7 +1560,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-lender-preflight-coordination",
     headline: "Lender alignment before you identify",
     summary:
-      "Financing that falls apart late in a one hundred eighty day closing window is one of the more preventable ways an exchange fails, because the debt terms that looked achievable at the start of the search sometimes do not survive the lender's actual underwriting once a specific property is under contract. We coordinate with regional banks, credit unions, and national lenders to preflight loan structures for your replacement strategy in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, before you commit to a purchase agreement rather than after.",
+      `Financing that falls apart late in a one hundred eighty day closing window is one of the more preventable ways an exchange fails, because the debt terms that looked achievable at the start of the search sometimes do not survive the lender's actual underwriting once a specific property is under contract. We coordinate with regional banks, credit unions, and national lenders to preflight loan structures for your replacement strategy in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, before you commit to a purchase agreement rather than after.`,
     outcomes: [
       "Match debt service coverage ratio and leverage targets to what specific lenders will actually approve",
       "Surface documentation needs before a letter of intent is executed, not after",
@@ -1588,7 +1588,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
       {
         question: "Can you help if the target property changes mid-process?",
         answer:
-          "Yes. We update the lender's underwriting assumptions quickly and keep every prospective lender aligned so a change in target property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} does not force the financing process to restart from scratch and jeopardize the closing deadline.",
+          `Yes. We update the lender's underwriting assumptions quickly and keep every prospective lender aligned so a change in target property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} does not force the financing process to restart from scratch and jeopardize the closing deadline.`,
       },
       {
         question: "Do you evaluate non-recourse financing options?",
@@ -1621,7 +1621,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-replacement-property-bidding-support",
     headline: "Negotiation support that preserves optionality",
     summary:
-      "A letter of intent negotiated without exchange deadlines in mind can quietly work against you, whether through a financing contingency that runs longer than your closing window allows or an inspection period that eats into time you cannot spare. We draft letters of intent, negotiate key provisions, and manage backup offers so your identification list in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} stays genuinely executable rather than just theoretically viable on paper.",
+      `A letter of intent negotiated without exchange deadlines in mind can quietly work against you, whether through a financing contingency that runs longer than your closing window allows or an inspection period that eats into time you cannot spare. We draft letters of intent, negotiate key provisions, and manage backup offers so your identification list in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} stays genuinely executable rather than just theoretically viable on paper.`,
     outcomes: [
       "Negotiate earnest money, contingency periods, and closing timelines that fit inside your exchange deadline",
       "Track counteroffers and maintain a written audit trail supporting your identification decisions",
@@ -1642,7 +1642,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Will you coordinate with my attorney in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Will you coordinate with my attorney in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. We work closely with your attorney to align letter of intent terms with the eventual purchase and sale agreement, while being clear that legal advice and contract review come from your counsel, not from us. Our role is coordinating the business terms and timeline, not providing legal opinions.",
       },
@@ -1682,7 +1682,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-triple-net-lease-renewal-diligence",
     headline: "Lease renewal diligence for single tenant assets",
     summary:
-      "The value of a single tenant net lease asset depends almost entirely on whether the tenant renews when its current term expires, so the analysis matters as much as the current in-place rent when you are placing 1031 proceeds. We evaluate lease renewal probability, landlord maintenance allocation, and capital planning for net lease assets purchased through exchanges in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so you understand what happens to cash flow well after the closing date, not just on day one.",
+      `The value of a single tenant net lease asset depends almost entirely on whether the tenant renews when its current term expires, so the analysis matters as much as the current in-place rent when you are placing 1031 proceeds. We evaluate lease renewal probability, landlord maintenance allocation, and capital planning for net lease assets purchased through exchanges in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, so you understand what happens to cash flow well after the closing date, not just on day one.`,
     outcomes: [
       "Model renewal probability and likely downtime if the tenant vacates at lease expiration",
       "Quantify landlord capital obligations that could come due regardless of whether the tenant renews",
@@ -1705,12 +1705,12 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
       {
         question: "Do you evaluate roof and structure responsibilities?",
         answer:
-          "Yes. We identify which party bears roof, structure, and parking lot obligations, confirm any active warranty status, and estimate remaining useful life on major building systems, so you can budget accurately for a net lease property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} rather than assuming an absolute triple net lease covers everything.",
+          `Yes. We identify which party bears roof, structure, and parking lot obligations, confirm any active warranty status, and estimate remaining useful life on major building systems, so you can budget accurately for a net lease property in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} rather than assuming an absolute triple net lease covers everything.`,
       },
       {
         question: "Can you benchmark renewal rents?",
         answer:
-          "Yes. We compare current contractual rent against prevailing market rent and, where available, tenant sales performance, to evaluate the likely renewal rent target within the relevant ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} trade area, which helps you understand whether a renewal is likely to preserve, increase, or reduce your cash flow.",
+          `Yes. We compare current contractual rent against prevailing market rent and, where available, tenant sales performance, to evaluate the likely renewal rent target within the relevant ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} trade area, which helps you understand whether a renewal is likely to preserve, increase, or reduce your cash flow.`,
       },
       {
         question: "Do you coordinate property condition assessments?",
@@ -1743,7 +1743,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-ground-lease-acquisition-advisory",
     headline: "Ground lease acquisitions with clear reversion value",
     summary:
-      "Owning the land under a ground lease, rather than the building on it, offers a different risk and return profile than a typical fee simple acquisition, one built on contractual rent resets and eventual reversion rather than building depreciation. We examine rent reset clauses, reversion value, and tenant credit to position ground lease investments in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} for predictable, long-duration returns that still qualify as like-kind replacement property.",
+      `Owning the land under a ground lease, rather than the building on it, offers a different risk and return profile than a typical fee simple acquisition, one built on contractual rent resets and eventual reversion rather than building depreciation. We examine rent reset clauses, reversion value, and tenant credit to position ground lease investments in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} for predictable, long-duration returns that still qualify as like-kind replacement property.`,
     outcomes: [
       "Model rent resets and any consumer price index adjustments built into the lease term",
       "Evaluate tenant credit quality and the strength of assignment and subletting rights",
@@ -1764,7 +1764,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "How do you evaluate reversion value in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `How do you evaluate reversion value in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "We analyze the underlying land value trajectory, zoning entitlements, and any improvements the tenant has constructed, since those improvements typically revert to the landowner at lease expiration under most ground lease structures, to estimate what the site will be worth when the ground lease eventually ends.",
       },
@@ -1804,7 +1804,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-sale-leaseback-exchange-guidance",
     headline: "Sale-leaseback reinvestments with governance safeguards",
     summary:
-      "A sale-leaseback acquisition means you are buying an operating company's real estate on the condition that the company signs a new long-term lease and stays in place, which puts corporate credit analysis at the center of the deal in a way a typical multi-tenant purchase does not. We structure sale-leaseback acquisitions with corporate credit review, landlord protections, and cash flow modeling for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors placing exchange proceeds into this asset class.",
+      `A sale-leaseback acquisition means you are buying an operating company's real estate on the condition that the company signs a new long-term lease and stays in place, which puts corporate credit analysis at the center of the deal in a way a typical multi-tenant purchase does not. We structure sale-leaseback acquisitions with corporate credit review, landlord protections, and cash flow modeling for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors placing exchange proceeds into this asset class.`,
     outcomes: [
       "Assess tenant credit quality, corporate guaranties, and the operating entity behind the lease",
       "Negotiate landlord protections, financial reporting rights, and inspection access into the lease terms",
@@ -1825,7 +1825,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Do you review corporate financials for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} sale-leasebacks?",
+        question: `Do you review corporate financials for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} sale-leasebacks?`,
         answer:
           "Yes. We examine audited financial statements, debt levels, and earnings trends to gauge tenant durability, since the entire cash flow thesis of a sale-leaseback depends on the operating company remaining financially healthy enough to pay rent for the full lease term.",
       },
@@ -1865,7 +1865,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-self-storage-1031-targeting",
     headline: "Self storage strategies built on supply-demand precision",
     summary:
-      "Self storage has drawn steady 1031 exchange interest because well-run facilities produce durable income with comparatively light management demands, but supply has grown quickly enough in parts of the Puget Sound region that not every facility performs the same. We evaluate absorption trends, rental rate movement, and management performance to place exchange capital into storage assets that actually match your income goals in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, rather than assuming the category performs uniformly well everywhere.",
+      `Self storage has drawn steady 1031 exchange interest because well-run facilities produce durable income with comparatively light management demands, but supply has grown quickly enough in parts of the Puget Sound region that not every facility performs the same. We evaluate absorption trends, rental rate movement, and management performance to place exchange capital into storage assets that actually match your income goals in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, rather than assuming the category performs uniformly well everywhere.`,
     outcomes: [
       "Benchmark supply and demand within relevant drive-time radii around each candidate facility",
       "Review unit mix, occupancy trends, and revenue management practices such as dynamic pricing",
@@ -1886,7 +1886,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Do you analyze climate-controlled demand in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you analyze climate-controlled demand in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. We review demographic trends, competing facility amenities, and rent premiums for climate-controlled units to project their performance, since climate control commands a meaningful rate premium in this region's damp climate but also carries higher construction and operating costs that need to be weighed against that premium.",
       },
@@ -1926,11 +1926,11 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-hospitality-stabilized-asset-search",
     headline: "Hospitality acquisitions with stabilized operating metrics",
     summary:
-      "Hospitality real estate carries an operating business layered on top of the underlying property, which makes performance far more sensitive to demand fluctuations than a typical net lease or multifamily asset. We evaluate flagged and independent hotels using average daily rate, revenue per available room, and management continuity analysis before recommending a hospitality acquisition for an exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, where convention activity, cruise season, and technology sector travel all influence demand differently throughout the year.",
+      `Hospitality real estate carries an operating business layered on top of the underlying property, which makes performance far more sensitive to demand fluctuations than a typical net lease or multifamily asset. We evaluate flagged and independent hotels using average daily rate, revenue per available room, and management continuity analysis before recommending a hospitality acquisition for an exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}, where convention activity, cruise season, and technology sector travel all influence demand differently throughout the year.`,
     outcomes: [
       "Review historical performance trends and any outstanding property improvement plan obligations from the franchisor",
       "Assess franchise agreement terms, brand standards, and remaining term before recommending a flagged property",
-      "Model cash flow sensitivity to seasonal and cyclical demand shifts specific to the ${PRIMARY_CITY} market",
+      `Model cash flow sensitivity to seasonal and cyclical demand shifts specific to the ${PRIMARY_CITY} market`,
       "Confirm management contract terms align incentives between the operator and the ownership entity",
     ],
     deliverables: [
@@ -1957,7 +1957,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
           "Yes. We evaluate termination rights, base and incentive management fees, and the key performance indicators the operator is measured against, so you understand whether the management agreement genuinely aligns operator incentives with ownership returns, rather than simply rewarding the operator regardless of property performance.",
       },
       {
-        question: "Do you model tourism and travel trends in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Do you model tourism and travel trends in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes. We incorporate convention calendars, cruise season activity, and corporate and technology sector travel forecasts into revenue projections, since demand for hotel rooms in this market fluctuates meaningfully across the year in ways a simple trailing average would not capture.",
       },
@@ -1987,7 +1987,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-flex-and-last-mile-logistics-match",
     headline: "Last-mile logistics matched to urban demand",
     summary:
-      "Last-mile distribution demand has pushed small bay and infill logistics rents higher across the Puget Sound region as delivery networks push closer to dense population centers, but not every building marketed as flex space actually has the loading, power, and circulation a modern logistics tenant needs. We map flex and last-mile facilities with a focus on loading configuration, truck circulation, and zoning compatibility for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} distribution needs, so the building you identify can genuinely support the tenant demand you are underwriting to.",
+      `Last-mile distribution demand has pushed small bay and infill logistics rents higher across the Puget Sound region as delivery networks push closer to dense population centers, but not every building marketed as flex space actually has the loading, power, and circulation a modern logistics tenant needs. We map flex and last-mile facilities with a focus on loading configuration, truck circulation, and zoning compatibility for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} distribution needs, so the building you identify can genuinely support the tenant demand you are underwriting to.`,
     outcomes: [
       "Assess loading configuration, truck circulation, and parking ratios against modern logistics standards",
       "Confirm zoning allows the intended use, including any required conditional use approval",
@@ -2008,9 +2008,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can you find facilities with EV infrastructure in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can you find facilities with EV infrastructure in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. We track properties with existing charging infrastructure or sufficient power capacity to support fleet electrification within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} logistics corridors, which is increasingly relevant as delivery fleets convert to electric vehicles and require meaningfully more power than a traditional warehouse was designed to provide.",
+          `Yes. We track properties with existing charging infrastructure or sufficient power capacity to support fleet electrification within ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} logistics corridors, which is increasingly relevant as delivery fleets convert to electric vehicles and require meaningfully more power than a traditional warehouse was designed to provide.`,
       },
       {
         question: "Do you analyze last-mile route efficiency?",
@@ -2048,7 +2048,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-land-bank-exchange-strategy",
     headline: "Land banking guided by entitlement realism",
     summary:
-      "Raw and entitlement-stage land produces no rental income, which makes it a fundamentally different holding than the cash-flowing assets most exchangers are accustomed to, and it requires an honest accounting of carrying costs against a longer-term appreciation and development thesis. We assemble shovel-ready and entitlement-stage land with hold cost analysis and exit scenarios for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} exchange investors who want the like-kind qualification of real property without committing to an income-producing building on day one.",
+      `Raw and entitlement-stage land produces no rental income, which makes it a fundamentally different holding than the cash-flowing assets most exchangers are accustomed to, and it requires an honest accounting of carrying costs against a longer-term appreciation and development thesis. We assemble shovel-ready and entitlement-stage land with hold cost analysis and exit scenarios for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} exchange investors who want the like-kind qualification of real property without committing to an income-producing building on day one.`,
     outcomes: [
       "Review entitlement status, zoning, and environmental history for each candidate parcel",
       "Project carrying costs, including property tax, insurance, and any assessment obligations",
@@ -2069,7 +2069,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can land qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can land qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
           "Yes, as long as it is held for investment or for use in a trade or business, rather than for personal use, such as a future personal residence lot. Raw land and improved real estate are both treated as real property under the current like-kind standard, so we confirm intended use and holding purpose align with exchange requirements before recommending a parcel.",
       },
@@ -2109,7 +2109,7 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     slug: "seattle-portfolio-fractional-exchange",
     headline: "Fractional structures with governance clarity",
     summary:
-      "A tenancy-in-common structure lets multiple exchangers, or a single exchanger and other investors, each hold an undivided fractional interest in one larger property, which opens access to institutional-grade assets that would be out of reach for a single 1031 investor's proceeds. We design tenancy-in-common and fractional ownership strategies with governance, cash flow, and exit planning for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors, keeping the structure carefully separated from a partnership interest, which does not qualify for exchange treatment.",
+      `A tenancy-in-common structure lets multiple exchangers, or a single exchanger and other investors, each hold an undivided fractional interest in one larger property, which opens access to institutional-grade assets that would be out of reach for a single 1031 investor's proceeds. We design tenancy-in-common and fractional ownership strategies with governance, cash flow, and exit planning for ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} investors, keeping the structure carefully separated from a partnership interest, which does not qualify for exchange treatment.`,
     outcomes: [
       "Define governance frameworks and decision rights that respect the tenancy-in-common structure's requirements",
       "Align cash distribution policies among co-owners before closing, not after a dispute arises",
@@ -2130,9 +2130,9 @@ const serviceDetailsRaw: Record<string, ServiceDetail> = {
     ],
     faqs: [
       {
-        question: "Can tenancy-in-common interests qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?",
+        question: `Can tenancy-in-common interests qualify for a 1031 exchange in ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR}?`,
         answer:
-          "Yes. A tenancy-in-common interest can qualify as like-kind real property when it is structured correctly, generally following the guidelines described in Revenue Procedure 2002-22, which limits the number of co-owners and restricts certain partnership-like features. We coordinate closely with legal counsel to make sure a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} tenancy-in-common structure stays on the correct side of that line.",
+          `Yes. A tenancy-in-common interest can qualify as like-kind real property when it is structured correctly, generally following the guidelines described in Revenue Procedure 2002-22, which limits the number of co-owners and restricts certain partnership-like features. We coordinate closely with legal counsel to make sure a ${PRIMARY_CITY}, ${PRIMARY_STATE_ABBR} tenancy-in-common structure stays on the correct side of that line.`,
       },
       {
         question: "How do you handle decision making among multiple co-owners?",

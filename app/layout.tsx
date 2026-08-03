@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-import site from "@/content/site.json";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { StickyCta } from "@/components/layout/sticky-cta";
@@ -22,9 +21,9 @@ const bodyFont = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "1031 Exchange Seattle | Property Sale Solutions",
+  title: "1031 Exchange Seattle | Free Turnkey Exchange Help",
   description:
-    "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options.",
+    "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.",
   icons: {
     icon: [
       { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -44,9 +43,9 @@ export const metadata: Metadata = {
 
   alternates: { canonical: "/" },
 
-  twitter: { card: "summary_large_image", title: "1031 Exchange Seattle | Property Sale Solutions", description: "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options." },
+  twitter: { card: "summary_large_image", title: "1031 Exchange Seattle | Free Turnkey Exchange Help", description: "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.", images: ["/homepage-hero/seattle-washington-1031-exchange-1.jpg"] },
 
-  openGraph: { title: "1031 Exchange Seattle | Property Sale Solutions", description: "Selling Seattle investment real estate? Put the QI, timing, financing, and replacement search in order, then request current options." },
+  openGraph: { title: "1031 Exchange Seattle | Free Turnkey Exchange Help", description: "Free 1031 exchange guidance for Seattle property owners. Get help with QI setup, replacement properties, DST options, deadlines, and closing.", images: ["/homepage-hero/seattle-washington-1031-exchange-1.jpg"] },
 };
 
 export default function RootLayout({

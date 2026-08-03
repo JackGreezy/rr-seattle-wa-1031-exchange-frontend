@@ -217,7 +217,7 @@ function ContactForm() {
           </div>
 
           <button type="submit" className="w-full border border-brand-copper bg-brand-copper px-8 py-4 text-sm font-medium uppercase tracking-widest text-black transition-all duration-300 hover:bg-brand-copper-light disabled:opacity-50 disabled:cursor-not-allowed">
-            {status === "submitting" ? "Submitting..." : "Submit →"}
+            {status === "submitting" ? "Submitting..." : "Request Free Guidance"}
           </button>
           <p className="text-xs text-white/70 text-center">Educational content only. Not tax or legal advice.</p>
           {feedback && (
